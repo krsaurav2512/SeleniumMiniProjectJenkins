@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="test1(failed)">
+    <groups>
+      <run>
+        <include name="positive"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.CalculatorTest">
+        <methods>
+          <include name="testAdd" invocation-numbers="0 1 2"/>
+          <include name="testDiv" invocation-numbers="0 1 2"/>
+          <include name="testSqrt" invocation-numbers="0 1 2"/>
+          <include name="testMul" invocation-numbers="0 1 2"/>
+          <include name="testSub" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- test.CalculatorTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

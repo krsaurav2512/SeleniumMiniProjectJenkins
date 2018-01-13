@@ -1,0 +1,11 @@
+2017-13-17 12:13:05.090 [main] INFO   - Test Execution Started For outlook Test
+2017-13-17 12:13:08.189 [main] INFO   - Successfully Launched outlook Application
+2017-13-17 12:13:11.515 [main] INFO   - Email KU395948@wipro.com has been entered in email field
+2017-13-17 12:13:11.705 [main] INFO   - Password has been entered
+2017-13-17 12:13:18.828 [main] INFO   - User has successfully login to outlook
+2017-13-17 12:13:59.979 [main] INFO   - Email has been composed and has been sent successfully 
+2017-14-17 12:14:07.212 [main] INFO   - Deleting email which having same subject
+2017-14-17 12:14:18.291 [main] INFO   - Deleting email which having same subject
+2017-14-17 12:14:29.309 [main] INFO   - Deleting email which having same subject
+2017-14-17 12:14:39.313 [main] INFO   - Email has been received successfully and deleted after verification 
+2017-14-17 12:14:43.998 [main] INFO   - Execution completed for Outlook test hence logging out from the application

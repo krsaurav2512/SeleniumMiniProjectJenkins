@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="36" started-at="2017-12-10T15:09:01Z" finished-at="2017-12-10T15:09:01Z">
+    <groups>
+    </groups>
+    <test name="Practice Tests" duration-ms="36" started-at="2017-12-10T15:09:01Z" finished-at="2017-12-10T15:09:01Z">
+      <class name="com.wipro.webdriver.tests.SendEmailAndVerify">
+        <test-method status="FAIL" signature="initializeExtentReport()[pri:0, instance:com.wipro.webdriver.tests.SendEmailAndVerify@3568f9d2]" name="initializeExtentReport" is-config="true" duration-ms="45" started-at="2017-12-10T20:39:01Z" finished-at="2017-12-10T20:39:01Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/template/TemplateModelException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+	at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:86)
+	at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:375)
+	at com.wipro.webdriver.tests.SendEmailAndVerify.initializeExtentReport(SendEmailAndVerify.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentReport -->
+        <test-method status="SKIP" signature="startBrowserTest(java.lang.reflect.Method)[pri:0, instance:com.wipro.webdriver.tests.SendEmailAndVerify@3568f9d2]" name="startBrowserTest" is-config="true" duration-ms="0" started-at="2017-12-10T20:39:01Z" description="Start browser" finished-at="2017-12-10T20:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowserTest -->
+        <test-method status="SKIP" signature="loginToOutlookTest()[pri:0, instance:com.wipro.webdriver.tests.SendEmailAndVerify@3568f9d2]" name="loginToOutlookTest" duration-ms="0" started-at="2017-12-10T20:39:01Z" description="Login to outlook application" finished-at="2017-12-10T20:39:01Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/template/TemplateModelException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+	at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:86)
+	at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:375)
+	at com.wipro.webdriver.tests.SendEmailAndVerify.initializeExtentReport(SendEmailAndVerify.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOutlookTest -->
+      </class> <!-- com.wipro.webdriver.tests.SendEmailAndVerify -->
+    </test> <!-- Practice Tests -->
+  </suite> <!-- My Test Suite -->
+</testng-results>
